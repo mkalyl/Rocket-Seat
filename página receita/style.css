@@ -28,7 +28,7 @@ img {
 }
 
 main {
-  padding: 24px;
+  padding-left: 24px;
 }
 
 section + section {
@@ -42,7 +42,6 @@ section + section {
 h1 {
   line-height: 140%;
   font-size: 40px;
-  
 }
 
 h2 {
