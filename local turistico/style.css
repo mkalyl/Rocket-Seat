@@ -1,6 +1,112 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#Busan > p:first-of-type {
+  color: #E1624F;
+  padding-bottom: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+main {
+  border-radius: 24px;
+  margin: 87px 84px;
+  justify-content: center;
+}
+
+main h1  {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic;
+  text-align: center;
+  color: #333333;
+  margin-top: 24px;
+}
+
+img {
+  border-radius: 28px;  
+  width: 100%; 
+  object-fit: cover; 
+  margin-top: 44px;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic; 
+  text-align: center;
+  color: #333333;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.second {
+  color: #333333;
+  font-size: 16px;
+}
+
+.bom-para {
+  font-weight: bold;
+}
+
+#History > p:first-of-type {
+  color: #E1624F;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#History > h2 { 
+  font-size: 32px;
+}
+
+.h3 {
+  font-size: 28px;
+}
+
+#Haedong-Yonggungsa li {
+  color: #0C51A7;
+  font-weight: bold;
+}
+
+#Beomeo-sa li {
+  color: #0C51A7;
+  font-weight: bold;
+}
+
+.casais {
+  color: #591B98;
+  font-weight: bold;
+}
+.familias {
+  color: #E5245E;
+  font-weight: bold;
+}
+.orçamento {
+  color: #E95E10;
+  font-weight: bold;
+}
+
 .divider {
   width: 100%;
   height: 1px;
   margin: 36px 0;
   background-color: #d9d9d9;
 }
+
+#last {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
