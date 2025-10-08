@@ -46,7 +46,7 @@ img {
   text-align: center;
   color: #333333;
   margin-top: 24px;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .second {
@@ -58,18 +58,39 @@ img {
   font-weight: bold;
 }
 
-#History > p:first-of-type {
+.phistory {
+  padding-top: 64px;
+  padding-bottom: 2px;
   color: #E1624F;
   font-weight: bold;
   font-size: 16px;
 }
 
+ul {
+  list-style-position: inside;
+  margin: 0;
+  padding-left: 0;
+}
+
+.li {
+  padding-bottom: 48px;
+}
+
+.secondH {
+  color: #333333;
+  font-size: 16px;
+  padding-bottom: 64px;
+}
+
 #History > h2 { 
   font-size: 32px;
+  padding-bottom: 8px;
 }
 
 .h3 {
   font-size: 28px;
+  padding-top: 20px;
+  padding-bottom: 4px;
 }
 
 #Haedong-Yonggungsa li {
@@ -93,6 +114,7 @@ img {
 .orçamento {
   color: #E95E10;
   font-weight: bold;
+  padding-bottom: 40px;
 }
 
 .divider {
@@ -102,11 +124,20 @@ img {
   background-color: #d9d9d9;
 }
 
+.descfinal {
+  color: #333333;
+  font-size: 16px;
+  padding-top: 40px;
+}
+
 #last {
   text-align: center;
 }
 
 footer {
   text-align: center;
+  color: #333333;
+  font-size: 16px;
+  padding-top: 66px;
 }
 
