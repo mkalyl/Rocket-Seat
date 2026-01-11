@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-:root {
+:root { 
   --brand-color-light: #60A5FA;
   --brand-color-dark: #1D4ED8;
   --bg-color: #0F172A;
