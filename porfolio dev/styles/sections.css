@@ -1,0 +1,60 @@
+.hero  {
+  background-image: url('../assets/Images/Background_Intro.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-intro {
+  margin-top: 56px;
+  font: var(--subtitle);
+  color: var(--brand-color-gray200);
+}
+
+.hero-title {
+  font: var(--title-lg);
+  color: var(--brand-color-gray100);
+}
+
+.hero-description {
+  margin-bottom: 80px;
+  font: var(--text-sm);
+  max-width: 680px;
+  color: var(--brand-color-gray300);
+}
+
+.hero-skills {
+  margin-bottom: 94px;
+}
+
+.hero-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero-skills {
+  display: flex;
+  gap: 16px;        
+  list-style: none;
+  padding: 0;
+}
+
+.hero-skills li {
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--brand-color-gray400);
+  font: var(--text-md);
+  color: var(--brand-color-gray200);
+}
+
+
+
