@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  position: relative;
 }
 
 .hero-intro {
@@ -92,5 +93,71 @@
   height: 24px;
 }
 
+.hero-scroll {
+  position: absolute;
+  bottom: 32px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
+.second  {
+  background-color: var(--brand-color-gray500);
+  min-height: 100vh;
+  padding: 120px 24px;
+  text-align: center;
+}
+
+.second-intro {
+  font: var(--subtitle);
+  color: var(--brand-color-red);
+  padding-bottom: 8px;
+}
+
+.second-title {
+  font: var(--title-md);
+  color: var(--brand-color-gray100);
+  padding-bottom: 56px;
+}
+
+.project-card {
+  background-color: var(--brand-color-gray400);
+  border-radius: 12px;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card img {
+  width: 100%;
+  height: 156px;
+  object-fit: cover;
+  display: block;
+}
+
+.projects-grid {
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 24px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto; 
+}
+
+.project-content {
+  padding: 16px;
+}
+
+.project-content h3 {
+  font: var(--title-sm);
+  color: var(--brand-color-gray100);
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.project-content p {
+  font: var(--text-sm);
+  color: var(--brand-color-gray200);
+  text-align: left;
+}
