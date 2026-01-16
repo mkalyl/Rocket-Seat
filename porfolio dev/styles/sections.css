@@ -123,10 +123,24 @@
 .project-card {
   background-color: var(--brand-color-gray400);
   border-radius: 12px;
+
+  border: 2px solid transparent;
+
+  transition: 
+    border 0.3s ease,
+    background-color 0.3s ease,
+    transform 0.3s ease;
+
   overflow: hidden; 
   display: flex;
   flex-direction: column;
 }
+
+.project-card:hover {
+  border-color: var(--brand-color-gray300);
+  transform: translateY(-4px);
+}
+
 
 .project-card img {
   width: 100%;
@@ -274,24 +288,41 @@
   width: 400px;
 }
 
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  width: 400px;
+  padding: 0;
+}
+
 .contact-card {
   display: flex;
   align-items: center;
   gap: 16px;
-  width: 400px;
-  height: 68px;
 
+  width: 100%;
+  height: 68px;
   padding: 16px 20px;
+
   border: 1px solid var(--brand-color-gray400);
   border-radius: 8px;
 
-  font: var(--text-md);
-  color: var(--brand-color-gray200);
-
   background: var(--brand-color-gray400);
+  color: var(--brand-color-gray200);
+  font: var(--text-md);
+  text-decoration: none;
 
-  cursor: pointer;
-  transition: 0.2s;
+  transition: 
+    background 0.2s ease,
+    border 0.2s ease,
+    transform 0.2s ease;
+}
+
+.contact-card img {
+  width: 28px;
+  height: 28px;
 }
 
 .contact-card span {
@@ -305,17 +336,26 @@
 }
 
 .contact-links li {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-
-  padding: 8px 16px; 
-  border: 1px solid var(--brand-color-gray400);
-  font: var(--text-md);
-  color: var(--brand-color-gray200);
+  border: none;
+  background: none;
+  padding: 0;
 }
 
 .contact-links li img {
   width: 28px;
   height: 28px;
 }
+
+.contact-card:hover {
+  border-color: var(--brand-color-blue);
+  transform: translateY(-2px);
+}
+
+.contact-card:hover span {
+  color: var(--brand-color-gray100);
+}
+
+.contact-card:hover .arrow {
+  filter: brightness(1.2);
+}
+
