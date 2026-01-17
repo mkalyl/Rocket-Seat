@@ -8,6 +8,10 @@ li {
   background: var(--brand-color-gray400);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   /*principais*/
   --brand-color-red: #E3646E;

@@ -58,6 +58,24 @@
   border-radius: 50%;
   object-fit: cover;
   display: block;
+  transition: transform 0.3s ease;
+}
+
+.hero-avatar:hover img:first-child {
+  transform: scale(1.05);
+}
+
+.hero-avatar::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.hero-avatar:hover::after {
+  border-color: var(--brand-color-red);
 }
 
 .hero-avatar-icon {
@@ -98,8 +116,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
+.hero-scroll:hover {
+  transform: translateY(6px);
+  opacity: 0.8;
+}
 
 .second  {
   background-color: var(--brand-color-gray500);
